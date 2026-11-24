@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   env: {
     // Kakao JS key is public by design (protected by registered domains).
     // Registered on Vercel as KAKAO_JS_KEY, exposed to the browser here.
-    NEXT_PUBLIC_KAKAO_JS_KEY:
-      process.env.KAKAO_JS_KEY ?? process.env.NEXT_PUBLIC_KAKAO_JS_KEY,
+    NEXT_PUBLIC_KAKAO_MAP_KEY:
+      process.env.KAKAO_JS_KEY ?? process.env.NEXT_PUBLIC_KAKAO_MAP_KEY,
   },
   cacheComponents: true,
   partialPrefetching: true,
